@@ -1,0 +1,5 @@
+Peptide candidate ABX-12 was isolated from frog skin secretion.
+
+Its sequence was GIGKFLHSAKKFGKAFVGEIMNS.
+
+Antibacterial activity was observed against S. aureus at 4 uM in saline buffer.

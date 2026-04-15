@@ -53,3 +53,36 @@ For pull requests, include:
 
 ## Security & Configuration Tips
 Do not commit API keys, private corpora, or large generated artifacts. Store secrets in `.env` and add local-only data paths to `.gitignore`.
+
+## Reporting & Change Tracking Guidelines
+
+At the end of each implementation round or task execution, the agent must provide a clear and structured summary of changes. This is mandatory to ensure traceability, reproducibility, and clarity of development progress.
+
+The summary must include the following two sections:
+
+### 1. Newly Added Files
+List all newly created files during this round. For each file, include:
+- File path
+- Purpose / responsibility of the file
+- Key components (e.g., main classes, functions, or modules introduced)
+
+Example:
+- `src/text_mining/document_parser.py`  
+  - Purpose: Parse raw documents into structured text  
+  - Key components: `DocumentParser`, `parse_pdf()`
+
+### 2. Modified Files
+List all modified existing files. For each file, include:
+- File path
+- What was changed
+- Why the change was made (functionality improvement, bug fix, refactor, etc.)
+
+Example:
+- `src/text_mining/pipeline.py`  
+  - Change: Added integration with document parser  
+  - Reason: Enable end-to-end pipeline execution
+
+### Additional Notes
+- Do not omit any file changes, even minor ones.
+- Keep descriptions concise but informative.
+- This section should appear in every final response after code implementation.
